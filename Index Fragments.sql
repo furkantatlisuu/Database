@@ -1,4 +1,5 @@
 --You can see the degradation rate of your Indexes by running this query on your relevant database.
+
 SELECT S.name as 'Schema',
 T.name as 'Table',
 I.name as 'Index',
